@@ -1,0 +1,257 @@
+body {
+    font-family: 'Limelight', cursive;
+    font-family: 'Trirong', serif;
+}
+
+.cover {
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    background: rgb(165, 28, 165);
+}
+
+.phone {
+    z-index: 1;
+    font-weight: 200;
+}
+
+.phone i {
+    color: black;
+}
+
+.phone a {
+    color: black;
+    font-size: .9rem;
+    font-weight: bold;
+}
+
+.reg {
+    width: 50%;
+    text-align: right;
+}
+
+.reg a {
+    color: black;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.social-icon {
+    display: inline-block;
+    width: 50%;
+}
+
+.social-icon p {
+    display: block;
+    width: 100%;
+}
+
+.social-icon p a {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.social-icon p a i {
+    font-size: 13px;
+    color: black;
+}
+
+.social-icon p a:hover {
+    background: rgb(228, 228, 18);
+    border-color: rgb(228, 228, 18);
+}
+
+.social-icon p a:hover i {
+    color: white;
+}
+
+.bg-color {
+    background: black;
+}
+
+.navbar-brand {
+    color: red;
+    font-weight: bold;
+    font-size: 35px!important;
+}
+
+.nav-link {
+    font-weight: bold;
+    color: red;
+    font-size: 20px;
+}
+
+.btn-group {
+    color: red;
+}
+
+.navbar-toggler i {
+    color: red;
+}
+
+#hero {
+    display: table;
+    width: 100%;
+    height: 85vh;
+    background: url(./images/background1.jpg);
+    background-size: cover;
+}
+
+@media (min-width: 1024px) {
+    #hero {
+        background-attachment: fixed;
+    }
+}
+
+#hero .hero-logo {
+    margin: 20px;
+    max-width: 100%;
+}
+
+#hero .hero-container {
+    background: rgba(0,0,0,0.2);
+    display: table-cell;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#hero h1 {
+    margin: 30px 0 10px 0;
+    font-weight: bold;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    #hero h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+}
+
+#hero h2 {
+    color: white;
+    margin-bottom: 50px;
+    font-style: italic;
+}
+
+@media (max-width: 768px) {
+    #hero h2 {
+        font-size: 24px;
+        line-height: 26px;
+        margin-bottom: 30px;
+    }
+    #hero h2 {
+        font-size: 24px;
+        line-height: 26px;
+        margin-bottom: 30px;
+    }
+}
+
+#hero .actions a {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 2px;
+    transition: 0.5s;
+    margin: 10px;
+}
+
+#hero .btn-get-started {
+    background: red;
+    border: 2px solid plum;
+    color: white;
+}
+
+#hero .btn-get-started:hover {
+    background: none;
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.menu {
+    padding-bottom: 40px;
+}
+
+.menu .card {
+    border: 0;
+    padding: 0 30px;
+    margin-bottom: 60px;
+    position: relative;
+    background: transparent;
+}
+
+.menu .card-img {
+    width: calc(100% + 60px);
+    margin-left: -30px;
+    overflow: hidden;
+    z-index: 9;
+    border-radius: 0;
+}
+
+.menu .card-img img {
+    max-width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu .card-body {
+    z-index: 10;
+    background: rgb(255, 222, 34);
+    border-top: 4px solid rgb(238, 236, 130);
+    padding: 30px;
+    box-shadow: 0px 2px 15px rgba(92, 86, 0, 0.5);
+    transition: 0.3s;
+}
+
+.menu .card-title {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.menu .card-title a {
+    color: black;
+    transition: 0.3s;
+}
+
+.menu .card-text {
+    color: black;
+}
+
+.menu .read-more a {
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    transition: 0.3s;
+}
+
+.menu .read-more a:hover {
+    color: coral;
+}
+
+.menu .card:hover img {
+    transform: scale(1.1);
+
+}
+
+.menu .card:hover .card-body {
+    border-color: rgb(255, 251, 0);
+}
+
+.menu .card:hover .card-body {
+    border-color: goldenrod;
+}
+
+.menu .card:hover .card-body .card-title a {
+    color: rgb(240, 49, 49);
+}
