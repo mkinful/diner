@@ -1,0 +1,47 @@
+body {
+    font-family: 'Limelight', cursive;
+    font-family: 'Trirong', serif;
+}
+
+.bg-img {
+    height: 100%;
+    display: block;
+}
+
+.prod-desc h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(255, 187, 16)
+}
+
+.amt {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: black;
+}
+
+.prod-desc .btn i {
+    color: black;
+}
+
+.minus {
+    background: transparent;
+    padding: 0 15px;
+    border: 2px solid rgba(0, 0, 0, 0.1)!important;
+}
+
+.plus {
+        background: transparent;
+        padding: 0 15px;
+        border: 2px solid rgba(0, 0, 0, 0.1)!important;
+}
+
+.prod-desc button, .form-control {
+    height: 40px!important;
+    border: 2px solid rgba(0, 0, 0, 0.1)!important;
+    color: black;
+    padding: 10px 20px;
+    background: transparent !important;
+    border-radius: 0;
+    font-size: 14px;
+}
