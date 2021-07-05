@@ -45,3 +45,8 @@ body {
     border-radius: 0;
     font-size: 14px;
 }
+
+.btn-bg {
+    background: black!important;
+    color: white!important;
+}
