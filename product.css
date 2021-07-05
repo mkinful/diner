@@ -31,9 +31,9 @@ body {
 }
 
 .plus {
-        background: transparent;
-        padding: 0 15px;
-        border: 2px solid rgba(0, 0, 0, 0.1)!important;
+    background: transparent;
+    padding: 0 15px;
+    border: 2px solid rgba(0, 0, 0, 0.1)!important;
 }
 
 .prod-desc button, .form-control {
@@ -49,4 +49,238 @@ body {
 .btn-bg {
     background: black!important;
     color: white!important;
+}
+
+.des-area {
+    padding-bottom: 120px;
+    margin-top: 60px;
+}
+
+@media (max-width:991px) {
+    .des-area {
+        margin-top: 0px;
+        padding-bottom: 70px;
+    }
+}
+
+.des-area .nav.nav-tabs {
+    display: block;
+    border: none;
+    padding:10px 0px;
+}
+
+.des-area .nav.nav-tabs li {
+    display: inline-block;
+    margin-right: 7px;
+}
+
+.des-area .nav.nav-tabs li:last-child {
+    margin-right: 0px;
+}
+
+.des-area .nav.nav-tabs li a {
+    padding: 0px;
+    border: none;
+    line-height: 38px;
+    background: white;
+    border: 1px solid white;
+    border-radius: 0px;
+    padding: 0px 30px;
+    color: black;
+    font-size: 14px;
+    font-weight: lighter;
+    border-radius: 50px;
+}
+
+@media (max-width: 991px) {
+    .des-area .nav.nav-tabs li a {
+        padding: 0px 20px;
+        margin-bottom: 10px;
+    }
+}
+
+.des-area .nav.nav-tabs li a.active {
+    background: gold;
+    color: black;
+    border-color: indianred;
+    box-shadow: -1.7px 8.3px 29.7px 2.2px rgba(12, 12, 12, 0.18);
+}
+
+.des-area .tab-content {
+    padding-top: 30px;
+}
+
+.des-area .tab-content .review-rate .review-sum {
+    background: rgb(233, 40, 130);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid black;
+}
+
+.des-area .tab-content .review-rate .review-sum h4 {
+    color: rgb(241, 241, 241);
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.des-area .tab-content .review-rate .review-sum h5 {
+    color: rgb(241, 241, 241);
+    margin-bottom: 0px;
+    font-size: 24px;
+}
+
+.des-area .tab-content .review-rate .review-sum h6 {
+    color: rgb(241, 241, 241);
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.des-area .tab-content .review-rate .star-rate {
+    margin-bottom: 30px;
+}
+
+.des-area .tab-content .review-rate .star-rate h3 {
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.des-area .tab-content .review-rate .star-rate .list li a {
+    font-size: 14px;
+    color: rgb(211, 211, 211);
+}
+
+.des-area .tab-content .review-rate .star-rate .list li a i {
+    color: rgb(255, 192, 31);
+}
+
+.des-area .tab-content .review-rate .star-rate .list li:nth-child a i:last-child{
+    color: white;
+}
+
+.review-sec {
+    margin-bottom: 35px;
+}
+
+.review-sec:last-child {
+    margin-bottom: 0px;
+}
+
+.review-sec p {
+    color: gray;
+}
+
+.review-sec .item {
+    position: relative;
+}
+
+.review-sec .item .d-flex {
+    padding-right: 15px;
+}
+
+.review-sec .item .d-flex img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.review-sec .item .item-sec {
+    vertical-align: middle;
+    align-self: center;
+}
+
+.reivew-sec .item .item-sec h4 {
+    margin-bottom: 0px;
+    font-size: 14px;
+    color: black;
+    margin-bottom: 8px;
+}
+
+.review-sec .item .item-sec i {
+    color: gold;
+}
+
+.review-sec .item .item-sec h5 {
+    font-size: 13px;
+    font-weight: light;
+    color: gray;
+}
+
+.review-sec .item .item-sec .reply-btn {
+    border: 1px solid black;
+    padding: 0px 28px;
+    display: inline-block;
+    line-height: 32px;
+    border-radius: 16px;
+    font-size: 14px;
+    color: black;
+    position: absolute;
+    right: 0px;
+    top: 14px;
+}
+
+.review-sec .item .item-sec .reply-btn:hover {
+    background: gold;
+    border-color: gold;
+    color: black;
+}
+
+.review-sec p {
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+
+.review-sec .reply {
+    padding-left: 28px;
+}
+
+.review-add h4 {
+    font-size: 24px;
+    color: black;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.review-add p {
+    margin-bottom: 0px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.review-add .list {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.review-add .list li {
+    display: inline-block;
+}
+
+.review-add .list li a {
+    display: inline-block;
+    color: gold;
+}
+
+.review-add .form-control {
+    height: 50px;
+    border-radius: 0;
+}
+
+.review-add:placeholder {
+    font-size: 14px;
+}
+
+.sub-btn {
+    padding: 13px 39px;
+    background: black!important;
+    color: white;
+    border-radius: 50px;
+}
+
+.review-add .contact-form {
+    margin-top: 15px;
 }
